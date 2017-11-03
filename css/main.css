@@ -3,7 +3,6 @@ body{
     padding: 0px;
     margin: 0px;
     width: 100%;
-    background-color: pink;
 }
 
 
@@ -13,9 +12,8 @@ body{
     
     margin-top: 20px;
     border-bottom-width: 6px;
-    border-bottom-color: rgba(35, 93, 255, 0.945);
+    border-bottom-color: rgb(34, 34, 34);
     border-bottom-style: solid;
-    background-color: orange;
     
     
 
@@ -25,7 +23,6 @@ body{
 
    
     height: 80px;
-    background-color: green;
     
 
 }
@@ -34,7 +31,6 @@ body{
     
         height: 180px;
         margin-left: 0px; 
-        background-color: red;
         
 }
 
@@ -43,8 +39,8 @@ body{
     width: 30px;
     height:100%;
     margin-right: 10px;
-    background-color: rgba(35, 93, 255, 0.945);
-    color: rgba(35, 93, 255, 0.945);
+    background-color: rgb(27, 27, 27);
+    color: blue;
     display: block;
     float: left;
     position: relative;
@@ -70,7 +66,7 @@ body{
     width: 15vw;
     border-radius: 360px;
     border-width: 6px;
-    border-color: rgba(35, 93, 255, 0.945);
+    border-color: blue;
     border-style: solid;
     margin-bottom: 25px;
     margin-left: 15vh;
@@ -94,7 +90,6 @@ body{
     
        
         height: 180px;
-        background-color: green;
         
     
     }
@@ -104,7 +99,7 @@ body{
         width: 30px;
         height:100%;
         margin-right: 10px;
-        background-color: rgba(34, 34, 34, 0.945);
+        background-color: blue;
         color: rgba(0, 0, 0, 0.945);
         display: block;
         float: left;
@@ -114,14 +109,17 @@ body{
 .left-date{
 
     float: left;
-    
+    color: blue;
 }
 
 .right-city{
 
     float: right;
+    color: blue;
    
 }
+
+
 
 .header3 {
     
@@ -138,7 +136,6 @@ body{
     
        
         height: 120px;
-        background-color: green;
    
 }
 
@@ -146,11 +143,15 @@ body{
 .fourth-part{
     
         pading-left: 30px;
-        position: relative;
-        background-color: green;
+        
    
 }
 
+.info{
+
+    color:blue;
+
+}
 
 .left-text{
     margin-top: 10px;
@@ -159,6 +160,7 @@ body{
     display: inline-block;
     margin-right: 10px;
     text-align: center;
+    
 }
 
 .progress{
@@ -166,5 +168,11 @@ body{
     float: left;
     width: 50%;
     height: 30px;
-    
+   
+}
+
+.clear{
+
+    clear: both;
+
 }
