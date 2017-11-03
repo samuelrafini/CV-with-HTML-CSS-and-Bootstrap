@@ -1,24 +1,42 @@
 
-.first-row {
+body{
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    background-color: pink;
+}
 
+
+
+.first-row {
+    
+    
     margin-top: 20px;
     border-bottom-width: 6px;
     border-bottom-color: rgba(35, 93, 255, 0.945);
     border-bottom-style: solid;
-    overflow: hidden;
+    background-color: orange;
+    
+    
+
 }
 
 .first-part{
 
+   
     height: 80px;
+    background-color: green;
+    
 
 }
 
 .second-part{
     
-        height: 100px;
-    
-    }
+        height: 180px;
+        margin-left: 0px; 
+        background-color: red;
+        
+}
 
 .blue-box{
 
@@ -29,6 +47,7 @@
     color: rgba(35, 93, 255, 0.945);
     display: block;
     float: left;
+    position: relative;
 
 }
 
@@ -54,9 +73,98 @@
     border-color: rgba(35, 93, 255, 0.945);
     border-style: solid;
     margin-bottom: 25px;
-    margin-top: 25px;
     margin-left: 15vh;
     margin-right: auto;
     align-self: center;
 }
 
+.header1{
+
+    font-family: 'Rozha One', serif;
+}
+
+.header2{
+    
+        font-family: 'Rozha One', serif;
+        margin-top: 30px;
+        margin-left: 30px;
+}
+
+.third-part{
+    
+       
+        height: 180px;
+        background-color: green;
+        
+    
+    }
+
+.black-box{
+    
+        width: 30px;
+        height:100%;
+        margin-right: 10px;
+        background-color: rgba(34, 34, 34, 0.945);
+        color: rgba(0, 0, 0, 0.945);
+        display: block;
+        float: left;
+    
+}
+
+.left-date{
+
+    float: left;
+    
+}
+
+.right-city{
+
+    float: right;
+   
+}
+
+.header3 {
+    
+    margin-top: 5px;
+
+}
+.header4 {
+    
+    
+
+}
+
+.third-part{
+    
+       
+        height: 120px;
+        background-color: green;
+   
+}
+
+
+.fourth-part{
+    
+        pading-left: 30px;
+        position: relative;
+        background-color: green;
+   
+}
+
+
+.left-text{
+    margin-top: 10px;
+    width: 35%;
+    float: left;
+    display: inline-block;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.progress{
+    margin-top: 10px;
+    float: left;
+    width: 50%;
+    height: 30px;
+    
+}
